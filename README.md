@@ -40,7 +40,7 @@ param {  <br />
  <br />
 ![image](https://github.com/hcalldee/BTS_TODOLIST/assets/49970186/4808a470-6817-48fa-af6a-6aa7f3ccf21d)
  <br />
-api Creat Todo <br />
+api Create Todo <br />
 POST <br />
 ``` /api/todos/ ``` <br />
 param { <br />
@@ -49,3 +49,15 @@ param { <br />
  <br />
 ![image](https://github.com/hcalldee/BTS_TODOLIST/assets/49970186/223849e9-a198-408f-8b9e-3d5a0846c9bc)
  <br />
+ 
+api delete Todo <br />
+DELET <br />
+``` /api/todos/2 ``` <br />
+
+ ![image](https://github.com/hcalldee/BTS_TODOLIST/assets/49970186/de6e57c8-06f6-4e05-98ac-09f9f2054749)
+
+ api Get All Todo <br />
+GET <br />
+``` /api/todos/ ``` <br />
+
+![image](https://github.com/hcalldee/BTS_TODOLIST/assets/49970186/9581c642-d86d-4181-aa08-7298d4ea6df0)
