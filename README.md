@@ -104,7 +104,7 @@ param {
 
 api Update status List <br />
 PUT <br />
-``` /api/list/:param ``` <br />
+``` /api/list/:param/status ``` <br />
 param {
   status
 }
