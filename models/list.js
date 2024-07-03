@@ -22,6 +22,17 @@ const updateList = async (id, listData) => {
     return result;
 };
 
+const updateListStatus = async (id, listData) => {
+    const { status } = listData;
+    const query = `
+        UPDATE t_list 
+        SET status = ? 
+        WHERE id = ?
+    `;
+    const [result] = await db.query(query, [status, id]);
+    return result;
+};
+
 const deleteList = async (id) => {
     const [result] = await db.query('DELETE FROM t_list WHERE id = ?', [id]);
     return result;
@@ -32,5 +43,6 @@ module.exports = {
     getAllLists,
     getListById,
     updateList,
+    updateListStatus,
     deleteList
 };

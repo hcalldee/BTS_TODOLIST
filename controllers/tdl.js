@@ -83,11 +83,24 @@ const getAllDoWithList = async (req, res, next) => {
     }
 };
 
+// Controller untuk menampilkan semua child list dari parent t_do
+const getAllListsByDoId = async (req, res, next) => {
+    const { parentId } = req.params; // Ambil parentId dari parameter URL
+    
+    try {
+        const lists = await Todo.getAllDoWithListId(parentId);
+        res.status(200).json(lists);
+    } catch (error) {
+        next(error);
+    }
+};
+
 module.exports = {
     createTodo,
     getAllTodos,
     getTodoById,
     updateTodo,
     deleteTodo,
-    getAllDoWithList
+    getAllDoWithList,
+    getAllListsByDoId
 };

@@ -13,6 +13,8 @@ router.post('/', todoController.createTodo);
 
 router.get('/allList', todoController.getAllDoWithList);
 
+router.get('/:parentId/lists', todoController.getAllListsByDoId);
+
 // Get all Todos
 router.get('/', todoController.getAllTodos);
 
