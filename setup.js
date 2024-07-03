@@ -13,7 +13,7 @@ const pool = mysql.createPool({
 // Perintah CREATE TABLE untuk t_do
 const createTDoTable = `
 CREATE TABLE t_do (
-  id INT(128) NOT NULL,
+  id INT(128) NOT NULL AUTO_INCREMENT,,
   title VARCHAR(256) DEFAULT NULL,
   PRIMARY KEY (id)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
