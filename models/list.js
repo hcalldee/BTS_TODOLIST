@@ -23,7 +23,7 @@ const updateList = async (id, listData) => {
 };
 
 const updateListStatus = async (id, listData) => {
-    const { status } = listData;
+    const status = listData;
     const query = `
         UPDATE t_list 
         SET status = ? 

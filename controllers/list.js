@@ -62,9 +62,9 @@ const updateListStatus = async (req, res, next) => {
         }
 
         // Toggle the status
-        const newStatus = !list.status; // Negate the current status
-
-        const result = await List.updateListStatus(id, newStatus);
+        const newStatus = req.body.status; // Negate the current status
+        console.log(newStatus);
+        const result = await List.updateListStatus(id,newStatus);
         if (!result.affectedRows) {
             return res.status(404).json({ message: 'List not found' });
         }
