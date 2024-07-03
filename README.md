@@ -3,20 +3,20 @@ rest crud starter using express js
 
 buat terlebih dahulu .env 
 
-kemudian isi seperti dibawah (isi bagian setelah = )
+kemudian isi seperti dibawah (isi bagian setelah = )<br />
+<br />
+PORT=3000<br />
+DB_HOST=localhost<br />
+DB_USER=root<br />
+DB_PASSWORD=<br />
+DB_NAME=<br />
+JWT_SECRET=<br />
+<br />
+kemudian jalankan <br />
+<br />
+```node setup.js```<br />
 
-PORT=3000
-DB_HOST=localhost
-DB_USER=root
-DB_PASSWORD=
-DB_NAME=
-JWT_SECRET=
-
-kemudian jalankan 
-
-```node setup.js```
-
-kemudian jalankan server.js
+kemudian jalankan server.js<br />
  <br />
 api daftar user baru  <br />
 POST  <br />
