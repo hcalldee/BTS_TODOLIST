@@ -52,7 +52,7 @@ param { <br />
  
 api delete Todo <br />
 DELET <br />
-``` /api/todos/2 ``` <br />
+``` /api/todos/:param ``` <br />
 
  ![image](https://github.com/hcalldee/BTS_TODOLIST/assets/49970186/de6e57c8-06f6-4e05-98ac-09f9f2054749)<br />
 
@@ -83,4 +83,37 @@ GET <br />
 GET <br />
 ``` /api/todos/:param/lists ``` <br />
 
-![image](https://github.com/hcalldee/BTS_TODOLIST/assets/49970186/39fd9049-ba49-4865-86c1-c991f7791df6)
+![image](https://github.com/hcalldee/BTS_TODOLIST/assets/49970186/39fd9049-ba49-4865-86c1-c991f7791df6)<br />
+
+api Get Detail List <br />
+GET <br />
+``` /api/list/:param ``` <br />
+
+![image](https://github.com/hcalldee/BTS_TODOLIST/assets/49970186/931ee1c3-44f5-47bd-8aae-d9a44b6ebb97)<br />
+
+api Update List <br />
+PUT <br />
+``` /api/list/:param ``` <br />
+param {
+  list,
+  id_do,
+  status
+}
+<br />
+![image](https://github.com/hcalldee/BTS_TODOLIST/assets/49970186/1955d686-4b5a-4ac1-8523-cb957a9d7783)<br />
+
+api Update status List <br />
+PUT <br />
+``` /api/list/:param ``` <br />
+param {
+  status
+}
+<br />
+![image](https://github.com/hcalldee/BTS_TODOLIST/assets/49970186/2a057083-9b83-4b69-abcf-937f5090d11d)<br />
+
+api delete List <br />
+DELET <br />
+``` /api/list/:param ``` <br />
+
+![image](https://github.com/hcalldee/BTS_TODOLIST/assets/49970186/ef9707ba-4802-4e88-ade6-e6f7d43cee11)
+
