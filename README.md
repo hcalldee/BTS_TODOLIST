@@ -37,3 +37,15 @@ param {
     email,
     password
 }
+
+![image](https://github.com/hcalldee/BTS_TODOLIST/assets/49970186/4808a470-6817-48fa-af6a-6aa7f3ccf21d)
+
+api Creat Todo
+POST
+``` /api/todos/ ```
+param {
+    title
+}
+
+![image](https://github.com/hcalldee/BTS_TODOLIST/assets/49970186/223849e9-a198-408f-8b9e-3d5a0846c9bc)
+
