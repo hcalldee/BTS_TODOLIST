@@ -79,11 +79,17 @@ GET <br />
 
 ![image](https://github.com/hcalldee/BTS_TODOLIST/assets/49970186/54643987-9740-4469-bc0d-56691c0d5325)<br />
 
- api Get All Todo With List <br />
+ api Get All Todo With List spesific <br />
 GET <br />
 ``` /api/todos/:param/lists ``` <br />
 
 ![image](https://github.com/hcalldee/BTS_TODOLIST/assets/49970186/39fd9049-ba49-4865-86c1-c991f7791df6)<br />
+
+ api Get All Todo With List <br />
+GET <br />
+``` /api/todos/allList ``` <br />
+![image](https://github.com/hcalldee/BTS_TODOLIST/assets/49970186/38f55ee5-8b56-49f7-a028-1e9dc13be825)
+
 
 api Get Detail List <br />
 GET <br />
