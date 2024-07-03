@@ -18,14 +18,14 @@ kemudian jalankan
 
 kemudian jalankan server.js
 
-api daftar user baru
-POST
-``` /api/user/register ```
-param {
+api daftar user baru <br>
+POST <br>
+``` /api/user/register ``` <br>
+<br> param {
     name,
     email,
     password
-}
+} <br>
 
 ![image](https://github.com/hcalldee/BTS_TODOLIST/assets/49970186/4da1dec2-bf92-4753-ab01-7e7f3575ee4a)
 
