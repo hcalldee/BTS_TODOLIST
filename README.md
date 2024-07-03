@@ -17,35 +17,35 @@ kemudian jalankan
 ```node setup.js```
 
 kemudian jalankan server.js
-
-api daftar user baru <br>
-POST <br>
-``` /api/user/register ``` <br>
-<br> param {
+ <br />
+api daftar user baru  <br />
+POST  <br />
+``` /api/user/register ```  <br />
+ param {
     name,
     email,
     password
-} <br>
+}  <br />
 
 ![image](https://github.com/hcalldee/BTS_TODOLIST/assets/49970186/4da1dec2-bf92-4753-ab01-7e7f3575ee4a)
+ <br />
 
-
-api Login
-POST
-``` /api/user/login ```
-param {
+api Login <br />
+POST  <br />
+``` /api/user/login ```  <br />
+param {  <br />
     email,
     password
 }
-
+ <br />
 ![image](https://github.com/hcalldee/BTS_TODOLIST/assets/49970186/4808a470-6817-48fa-af6a-6aa7f3ccf21d)
-
-api Creat Todo
-POST
-``` /api/todos/ ```
-param {
+ <br />
+api Creat Todo <br />
+POST <br />
+``` /api/todos/ ``` <br />
+param { <br />
     title
 }
-
+ <br />
 ![image](https://github.com/hcalldee/BTS_TODOLIST/assets/49970186/223849e9-a198-408f-8b9e-3d5a0846c9bc)
-
+ <br />
